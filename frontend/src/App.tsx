@@ -6,10 +6,12 @@ import EasterEggPage from './EasterEgg/EasterEggPage';
 
 function App() {
   const [page, setPage] = useState('game');
+  const [easTerEggActivated, setEasTerEggActivated] = useState(true);
+
 
   return (
     <div className='app-container'>
-      <NavBar onPageChange={setPage} />
+      <NavBar onPageChange={setPage} isEasterEggActif={easTerEggActivated}/>
       {
         page === 'game' ? <Game /> : <EasterEggPage/>
       }

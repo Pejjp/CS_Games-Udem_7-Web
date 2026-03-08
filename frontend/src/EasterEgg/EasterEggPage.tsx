@@ -6,7 +6,7 @@ export default function EasterEggPage() {
                 Université de montreal.
             </p>
             <p>Jeff J. Pendy P.</p>
-            <p>Second name here</p>
+            <p>Nathan Riantsoa Razafindrakoto</p>
         </div>
     );
 }
